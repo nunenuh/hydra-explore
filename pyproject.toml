@@ -1,0 +1,23 @@
+# creat for me a pyproject.toml file
+[tool.poetry]
+name = "hydra-explore"
+version = "0.1.0"
+description = "A project to explore hydra"
+authors = ["Lalu Erfandi Maula Yusnu <nunenuh@gmail.com>"]
+packages = [
+    { include = "src" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+hydra-core = "^1.3.2"
+notebook = "^7.2.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+
+
+
