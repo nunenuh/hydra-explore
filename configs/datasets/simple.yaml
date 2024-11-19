@@ -1,0 +1,6 @@
+defaults:
+  - _self_
+
+dataset:
+  name: simple
+  path: ./data/simple.csv
